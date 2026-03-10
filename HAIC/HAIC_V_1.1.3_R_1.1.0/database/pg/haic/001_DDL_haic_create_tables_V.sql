@@ -1,0 +1,7 @@
+-- HAIC V1.1.3 基础表
+CREATE TABLE IF NOT EXISTS haic_patient (
+  id BIGSERIAL PRIMARY KEY,
+  patient_no VARCHAR(32) NOT NULL,
+  patient_name VARCHAR(64) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
