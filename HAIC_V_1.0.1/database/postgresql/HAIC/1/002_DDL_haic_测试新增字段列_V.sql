@@ -1,0 +1,4 @@
+-- HAIC V1.1.3 就诊信息字段
+ALTER TABLE haic_patient
+ADD COLUMN IF NOT EXISTS visit_dept VARCHAR(64),
+ADD COLUMN IF NOT EXISTS visit_doctor VARCHAR(64);
