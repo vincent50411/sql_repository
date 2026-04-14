@@ -5,3 +5,6 @@ CREATE TABLE IF NOT EXISTS haic_schedule (
   doctor_code VARCHAR(32) NOT NULL,
   dept_code VARCHAR(32) NOT NULL
 );
+
+
+select * from test;

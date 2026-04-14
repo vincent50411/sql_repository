@@ -5,3 +5,6 @@ CREATE TABLE IF NOT EXISTS haic_patient (
   patient_name VARCHAR(64) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+-- SELECT * FROM haic_patient;
